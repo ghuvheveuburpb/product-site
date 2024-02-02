@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+
+:root {
+    --themePrimary:#D0E7D4; 
+    --themeSecondary:#8AAF68;
+    --themeDark: #111010; 
+    --themeLight:#F8F9F7;
+}
+
+h1,
+h2,
+h3,
+h6 {
+    color: var(--themePrimary);
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--themeDark);
+}
+
+.nav-link {
+    color: var(--themeDark);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-pills .nav-link.active {
+    color: var(--themePrimary);
+    background-color: #ffffff;
+}
+
+.nav a:hover {
+    color: var(--themeSecondary);
+}
+
+.btn-primary {
+    background-color: var(--themeDark);
+    color: var(--themeLight);
+    border-color: var(--themeSecondary);
+}
+
+
+.blog-hero {
+    background-image: url(/media/plant.jpg);
+    position: relative;
+    width: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffffff;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(252, 251, 251, 0.25); /* Adjust the alpha (last) value for opacity */
+}
+
+.text-background {
+    background-color: rgba(252, 251, 251, 0.3);
+    border-radius: 5px;
+}
+
+.form-control {
+    background-color: var(--themePrimary);
+}
+
+.card {
+    background-color: var(--themeLight);
+    border-width:0;
+}
+
+
+
